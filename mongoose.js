@@ -3,8 +3,7 @@ const mongoose = require('mongoose');
 const Product = require('./models/products');
 
 mongoose.connect(
-    'mongodb+srv://scalez_106:N0N1prbud1ZaMjOp@cluster0.afn6l2s.mongodb.net/products_test?retryWrites=true&w=majority&appName=Cluster0'
-    ).then(()=>{
+    '' ).then(()=>{ //database url
         console.log('Connected to database');
     })
     
